@@ -11,11 +11,11 @@
   <title>Star Wars Api</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/busqueda.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/blog-post.css" rel="stylesheet">
-  <link href="css/busqueda.css" rel="stylesheet">
+  <link href="../css/blog-post.css" rel="stylesheet">
 
 </head>
 
@@ -24,9 +24,9 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="background-color: #393e41 !important; ">
     <div class="container">
-    <a class="navbar-brand" href="index.html">MI PRIMERA API</a> 
+    <a class="navbar-brand" href="../index.html">MI PRIMERA API</a> 
       <img src="https://cdn.icon-icons.com/icons2/318/PNG/512/Darth-Vader-icon_34501.png" class="navbar-brand" href="#" alt="TheLordOfTheRingsIcon" style="width:75px;height:60px;">
-      <button class="navbar-toggler" type="submit" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
     </div>
@@ -57,39 +57,31 @@
         <hr>
 
         <!-- Preview Image -->
-        <img class="img-fluid rounded" src="images/imagenPrincipal.jpg" alt="imagenPrincipal">
-
-        <hr>
-
-        <!-- Post Content -->
-        <p class="lead">Star Wars (conocida también en español como La guerra de las galaxias) es una franquicia compuesta primordialmente de una serie de películas concebidas por el cineasta estadounidense George Lucas en la década de 1970, y producidas y distribuidas por The Walt Disney Company a partir de 2012. Su trama describe las vivencias de un grupo de personajes que habitan en una galaxia ficticia e interactúan con elementos como «la Fuerza», un campo de energía metafísico y omnipresente​ que posee un «lado oscuro» provocado por la ira, el miedo y el odio.</p>
+        <img class="img-fluid rounded" src="../images/imagenPrincipal.jpg" alt="imagenPrincipal">
 
         <hr>
 
         <!-- Comments Form -->
-        <div class="card my-4">
-          <h5 class="card-header">Comentarios:</h5>
-          <div class="card-body">
-            <form>
-              <div class="form-group">
-                <textarea class="form-control" rows="3"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Enviar</button>
-            </form>
-          </div>
+        <div>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Height</th> 
+                    <th>Mass</th> 
+                    <th>Hair Color</th> 
+                    <th>Skin Color</th> 
+                    <th>Eye Color</th> 
+                    <th>Birth Year</th> 
+                    <th>Gender</th> 
+                </tr>
+                <tbody id="people">
+                </tbody>
+            </table>
         </div>
 
         <!-- Single Comment -->
         <div class="media mb-4">
-          <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
-          <div class="media-body">
-            <h5 class="mt-0">Juan</h5>
-            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-          </div>
-        </div>
-
-        <!-- Comment with nested comments -->
-        <div id = 'elemento'>
+          
         </div>
 
       </div>
@@ -102,9 +94,9 @@
           <h5 class="card-header">Buscar</h5>
           <div class="card-body">
             <div class="input-group">
+              <input type="text" class="form-control" id = "texto" placeholder="Realize una busqueda...">
               <span class="input-group-append">
-                <a href= "html/busquedaPersona.html" class="botones" id ="boton" type="button">Persona</a>
-                <a href= "html/busquedaPlaneta.html" class="botones" id ="boton1" type="button">Planeta</a>
+                <button class="btn btn-secondary" type="button" id = "botonPersona">Buscar</button>
               </span>
             </div>
           </div>
@@ -135,9 +127,14 @@
   </footer>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../vendor/jquery/jquery.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script src="../js/busqueda.js"></script>
 
 </body>
+
+
+
 
 </html>
