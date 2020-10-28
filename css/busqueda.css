@@ -22,7 +22,9 @@ table {
   padding: 10px 24px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
   float: left; /* Float the buttons side by side */
-  margin-left: 25px;
-  margin-right: 25px;
+  width: 110px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
   border-radius: 10px;
 }

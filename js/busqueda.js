@@ -50,7 +50,6 @@ if (valor == "") {
       console.log(datos);
       let people = document.querySelector('#people');
       people.innerHTML = '';
-
       for (let i of datos.results) {
         people.innerHTML += `<td>${i.name}</td>`+
         `<td>${i.height}</td>` +
