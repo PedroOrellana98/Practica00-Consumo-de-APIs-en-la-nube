@@ -109,7 +109,7 @@ if (valor == "") {
           for (let i of datos1.results) {
            planet.innerHTML += `<td>${i.name}</td>` +
            `<td>${i.rotation_period}</td>` +
-           `<td>${i.orbital_peiod}</td>` +
+           `<td>${i.orbital_period}</td>` +
            `<td>${i.diameter}</td>` +
            `<td>${i.climate}</td>` +
            `<td>${i.gravity}</td>` +
@@ -135,7 +135,7 @@ if (valor == "") {
           for (let i of datos.results) {
             planet.innerHTML += `<td>${i.name}</td>`+
            `<td>${i.rotation_period}</td>` +
-           `<td>${i.orbital_peiod}</td>` +
+           `<td>${i.orbital_period}</td>` +
            `<td>${i.diameter}</td>` +
            `<td>${i.climate}</td>` +
            `<td>${i.gravity}</td>` +
