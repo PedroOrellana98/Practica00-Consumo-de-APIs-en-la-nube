@@ -55,6 +55,8 @@ usuario (justificar en el informe).
 
 RESULTADO(S) OBTENIDO(S):
 
+![Image 1](https://github.com/PedroOrellana98/Practica00-Consumo-de-APIs-en-la-nube/blob/master/capturas%20Informe/1.png)
+
 Una API funciona como un intermediario entre la base de datos del servidor y el navegador del cliente para obtener
 la información que se solicita.
 
@@ -70,10 +72,15 @@ Películas, Naves, Vehículos, Especies y Planetas.
 
 2. No se utilizó una API KEY
 
-## 3. Captura del repositorio de Github: “Practica00 – Consumo de APIs en la nube”
+3. Captura del repositorio de Github: “Practica00 – Consumo de APIs en la nube”
+
+![Image 2](https://github.com/PedroOrellana98/Practica00-Consumo-de-APIs-en-la-nube/blob/master/capturas%20Informe/2.png)
 
 4. Capturas del desarrollo de la aplicación HTML + CSS + JAVASCRIPT + WEB SERVICE
+
 - Index.html
+
+![Image 3](https://github.com/PedroOrellana98/Practica00-Consumo-de-APIs-en-la-nube/blob/master/capturas%20Informe/3.png)
 
 Pagina principal del index.html en esta página podemos encontrar información sobre la película seleccionada, en
 este caso se escogió la serie de STAR WARS.
@@ -86,6 +93,8 @@ su servicio.
 
 - Página de Búsqueda por Persona
 
+![Image 4](https://github.com/PedroOrellana98/Practica00-Consumo-de-APIs-en-la-nube/blob/master/capturas%20Informe/4.png)
+
 Dentro de la barra de búsqueda se puede dejar en blanco para buscar todas las variables que tiene la API dentro
 del criterio de https://swapi.dev/api/people/, para realizar una búsqueda concreta se debe ingresar el criterio de
 búsqueda y pulsar el botón de búsqueda.
@@ -96,12 +105,16 @@ Ojos, Año de Nacimiento y Genero.
 Las clases dentro de la tabla cambiaran dependiendo de la selección del parámetro que se encontraba en la página
 anterior (index.html).
 
+![Image 5](https://github.com/PedroOrellana98/Practica00-Consumo-de-APIs-en-la-nube/blob/master/capturas%20Informe/5.png)
+
 La tabla lanza 5 elementos por cada búsqueda, para seguir observando más elementos debemos cambiar de pagina
 con los botones de Anterior, o Siguiente dependiendo la pagina que se muestre.
 
 Los botones y la tabla se activarán cuando se introduzca el criterio de búsqueda y presione el botón del Buscar.
 
 - Ejemplo de una búsqueda dentro del servidor de la API
+
+![Image 6](https://github.com/PedroOrellana98/Practica00-Consumo-de-APIs-en-la-nube/blob/master/capturas%20Informe/6.png)
 
 Archivo JSON de la API alojada en el servidor.
 
@@ -123,6 +136,7 @@ Nombre de estudiante: Pedro Jose Orellana
 
 Firma de estudiante:
 
+![Image 7](https://github.com/PedroOrellana98/Practica00-Consumo-de-APIs-en-la-nube/blob/master/capturas%20Informe/7.png)
 
 
 
