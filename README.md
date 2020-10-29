@@ -1,3 +1,131 @@
+## PRÁCTICA DE LABORATORIO
+
+# CARRERA: COMPUTACION ASIGNATURA: PLATAFORMAS WEB
+
+# NRO. PRÁCTICA: 1 TÍTULO PRÁCTICA: Desarrollo de una aplicación web utilizando la API de la base de datos de películas OMDB
+
+OBJETIVO ALCANZADO:
+
+- Conocer las arquitecturas y patrones arquitectónicos web para el diseño de aplicaciones web
+- Interactuar con servicios web de plataformas en la nube
+
+## ACTIVIDADES DESARROLLADAS
+
+# 1. Identificar gráficamente la arquitectura y el patrón de diseño de la aplicación a desarrollar.
+
+# 2. Generar una llave para consumir los servicios web de la API (opcional, depende de la API
+
+# seleccionada).
+
+# 3. Crear un repositorio en GitHub con el nombre “Practica00 – Consumo de APIs en la nube”
+
+# 4. Desarrollar una aplicación con HTML + CSS + Javascript + Web Services para buscar información y
+
+# visualizar toda la información disponible a través de la API.
+
+# 5. Realizar varios commits en la herramienta GitHub que demuestren el desarrollo de la aplicación.
+
+# 6. Generar el informe de la práctica con el desarrollo de cada uno de los puntos descritos
+
+# anteriormente.
+
+# 7. Implementar el README del repositorio del proyecto con la misma información del informe de la
+
+# práctica
+
+# 8. Subir al AVAC el informe del proyecto en formato *.pdf. El informe debe contar con conclusiones
+
+# apropiadas
+
+## INSTRUCCIONES
+
+Desarrollar una aplicación web usando una de las API gratuitas de API List Fun. Tener en cuenta que se deben
+aplicar buenas prácticas para el desarrollo de la interfaz gráfica de usuario, para la cual se permite utilizar plantilla
+de Bootstrap.
+
+Requisitos:
+
+- La aplicación Web debe permitir buscar la información a través de un nombre.
+- Además, se deberá visualizar toda la información disponible de la base de datos.
+
+- También, la aplicación deberá aplicar paginación en caso de la búsqueda del primer requerimiento. Es decir, si la
+búsqueda retorna más de 5 resultados se deberá paginar los mismos según el total de resultados obtenidos.
+- Por último, la interfaz gráfica de aplicada debe ser intuitiva y sencilla aplicando conceptos de experiencia de
+usuario (justificar en el informe).
+
+RESULTADO(S) OBTENIDO(S):
+
+Una API funciona como un intermediario entre la base de datos del servidor y el navegador del cliente para obtener
+la información que se solicita.
+
+“Antes de aprender a usar una API, es importante que comprendas qué es esta herramienta y para qué sirve, por
+lo que será más fácil comprender toda la lógica detrás de dicha estrategia.
+
+API es el acrónimo utilizado para Application Programming Interface, o en español, Interfaz de Programación de
+Aplicaciones. Básicamente es una interfaz que permite la comunicación entre dos sistemas o plataformas
+diferentes, lo que permite agregar diversas funciones a sitios web y aplicaciones.” [ 1 ]
+
+La API seleccionada se encuentra en https://swapi.dev/, en la cual se encuentran parámetros como: Personas,
+Películas, Naves, Vehículos, Especies y Planetas.
+
+2. No se utilizó una API KEY
+
+## 3. Captura del repositorio de Github: “Practica00 – Consumo de APIs en la nube”
+
+4. Capturas del desarrollo de la aplicación HTML + CSS + JAVASCRIPT + WEB SERVICE
+- Index.html
+
+Pagina principal del index.html en esta página podemos encontrar información sobre la película seleccionada, en
+este caso se escogió la serie de STAR WARS.
+
+Dentro de la barra de navegación están botones de navegación que redirigen a los parámetros de búsqueda de
+contenido dentro de la API.
+
+Que contiene la API una breve descripción de como funciona la API desde la web y que contenido ofrece al ejecutar
+su servicio.
+
+- Página de Búsqueda por Persona
+
+Dentro de la barra de búsqueda se puede dejar en blanco para buscar todas las variables que tiene la API dentro
+del criterio de https://swapi.dev/api/people/, para realizar una búsqueda concreta se debe ingresar el criterio de
+búsqueda y pulsar el botón de búsqueda.
+
+Dentro del campo de Persona tenemos las clases: Nombre, Peso, Masa, Color de Pelo, Color de Piel, Color de
+Ojos, Año de Nacimiento y Genero.
+
+Las clases dentro de la tabla cambiaran dependiendo de la selección del parámetro que se encontraba en la página
+anterior (index.html).
+
+La tabla lanza 5 elementos por cada búsqueda, para seguir observando más elementos debemos cambiar de pagina
+con los botones de Anterior, o Siguiente dependiendo la pagina que se muestre.
+
+Los botones y la tabla se activarán cuando se introduzca el criterio de búsqueda y presione el botón del Buscar.
+
+- Ejemplo de una búsqueda dentro del servidor de la API
+
+Archivo JSON de la API alojada en el servidor.
+
+5. URL Repositorio: https://github.com/PedroOrellana98/Practica00-Consumo-de-APIs-en-la-nube.git
+    Nombre de Usuario: PedroOrellana
+
+CONCLUSIONES:
+
+- La API es una gran opción de consumo de contenido en la nube que puede servir como una base de
+    datos para almacenar datos de entretenimiento, investigación, ocio, etc.
+- Documentación de la API en el siguiente link: https://swapi.dev/documentation
+
+## RECOMENDACIONES:
+
+- Profundizar en el tema de paginación dentro del consumo de APIs.
+
+
+Nombre de estudiante: Pedro Jose Orellana
+
+Firma de estudiante:
+
+
+
+
 # [Start Bootstrap - Blog Post](https://startbootstrap.com/templates/blog-post/)
 
 [Blog Post](https://startbootstrap.com/templates/blog-post/) is a basic blog post HTML starter template for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).
